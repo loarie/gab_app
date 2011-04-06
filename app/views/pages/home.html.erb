@@ -1,6 +1,30 @@
-<h1>Global Amphibian Blitz</h1>
-<p>
-    Coming soon...
-</p>
+<style type="text/css" media="screen">
+  .inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+  .inat-widget-header {margin-bottom: 10px;}
+  .inat-widget td {vertical-align: top; padding-bottom: 10px;}
+  .inat-label { color: #888; }
+  .inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+  .inat-observation-body, .inat-user-body { padding-left: 10px; }
+  .inat-observation-image {text-align: center;}
+  .inat-observation-image, .inat-user-image { width: 48px; }
+  .inat-observation-image img, .inat-user-image img { max-width: 48px; }
+  .inat-label, .inat-value, .inat-user, .inat-message { font-family: "Trebuchet MS", Arial, sans-serif; }
+  .inat-user-body {vertical-align: middle;}
+  .inat-widget td.inat-user-body {vertical-align: middle;}
+</style>
+<div class="inat-widget">  
+  <div class="inat-message">
+    <strong>
+      Can you identify these amphibians?
+    </strong>
+    <strong style="float: right;">
+      <a href="http://inaturalist.org/taxa/Amphibia?landing=true">View more unidentified amphibians &raquo;</a>
+    </strong>
+  </div>
+  <div style="text-align: center;">
+    <script type="text/javascript" charset="utf-8"  src="http://inaturalist.org/observations.widget?has[]=id_please&iconic_taxa[]=Amphibia&has[]=photos&layout=small&limit=17&order=desc&order_by=observed_on"></script>
+    </div>
+</div>
 
-<%= link_to "Sign up now!", '#', :class => "signup_button round" %>
+<div id="map_canvas"></div>
+<div id="leader_bar">This is the spot where the leader bar will go</div>

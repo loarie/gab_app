@@ -4,8 +4,16 @@
   <head>
     <title><%= title %></title>
     <%= render 'layouts/stylesheets' %>
+    <% if @title == 'Home' %>
+      <%= render 'layouts/maps' %>
+    <% end %>
   </head>
-  <body>
+  <%= render 'layouts/stylesheets' %>
+  <% if @title == 'Home' %>
+    <body onload="initialize()">
+  <% else %>
+    <body>
+  <% end %>
     <div class="container">
       <%= render 'layouts/header' %>
       <div id="content" class="round">
