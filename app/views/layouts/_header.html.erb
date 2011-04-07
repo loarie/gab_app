@@ -1,12 +1,12 @@
 <div id="header">
-  <%= link_to image_tag("logo.png", :alt => "Global Amphibian Blitz", :class => "round"), root_path %>
+  <%= link_to image_tag("logo.png", :alt => "Global Amphibian Blitz", :class => "round"), home_path %>
   <%= link_to "Submit an observation!",
     "http://www.inaturalist.org/observations/new?project_id=3", :target => "_blank",
     :class =>    "signup_button round"
   %>
   <ul class="navigation round">
      <% if @title == 'About' %>
-        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Home", home_path %></li>
       <% else %>
         <li><%= link_to "About", about_path %></li>
       <% end %>
