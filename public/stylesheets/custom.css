@@ -1,14 +1,25 @@
 .container {
-  width: 900px;
+  width: 970px;
 }
 
 body {
   background: #336600;
 }
 
+.text-box {
+  padding: 10px 40px 10px 40px;
+  vertical-align: center;
+}
+
+.paragraph-box {
+  padding: 0px 40px 0px 40px;
+  vertical-align: center;
+}
+
+
 #header {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 #header img {
@@ -19,9 +30,9 @@ body {
 #content {
   margin-top: 1em;
   font-size: 120%;
-  padding: 20px;
+  padding: 5px;
   background: #fff;
-  height: 500px;
+  height: 470px;
 }
 
 /* Links */
@@ -40,20 +51,89 @@ a:visited {
   color: #336600;
 }
 
+/* Logos */
+
+.logos {
+  float: left;
+  background-color: white;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+
+ul.logos {
+  margin: 0;
+}
+
+.logos li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px;
+}
+
+/* Submit-container */
+
+.submit-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  float: left;
+  /*text-align: center;*/
+  width: 370px;
+  height: 55px;
+  color: #336600;
+  background: white;
+  padding: 10px;
+}
+
+/* Current Stats Wrapper */
+
+.current-stats-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: left;
+  padding: 0px 0px 0px 30px;
+}
+
+.current-stats {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;*/
+  width: 25px;
+  height: 25px;
+  color: #336600;
+  background: white;
+  font-size: 200%;
+  font-weight: bold;
+  padding: 10px
+}
+
+.current-stats-label {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: smaller;
+  font-style: italic;
+}
+
 /* Add observation button */
 
 a.signup_button {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  float: left;
-  /*text-align: center;*/
-  width: 120px;
+  float: right;
+  vertical-align: center;
+  text-align: center;
+  width: 125px;
+  height: 50px;
   color: #336600;
-  background: white;
-  font-size: 150%;
+  background: red;
+  font-size: 125%;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
+  color: white;
 }
 
 /* Round corners */
@@ -72,7 +152,7 @@ a.signup_button {
 
 .navigation {
   background-color: white;
-  padding: 0 0.7em;
+  padding: 5px;
   white-space: nowrap;
 }
 
@@ -104,7 +184,7 @@ ul.navigation {
 #footer {
   text-align: center;
   margin-top: 10px;
-  width: 900px;
+  width: 970px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -120,8 +200,8 @@ ul.navigation {
   margin-right: auto;
   display: block;
   float: left;
-  width: 500px;
-  height: 400px;
+  width: 390px;
+  height: 330px;
   padding: 10px;
 }
 
@@ -134,3 +214,97 @@ ul.navigation {
   height: 500px;
   padding: 10px;
 }
+
+/* Twitter */
+#twitter {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  	font-size: 12px;
+  	color: #333;
+  	width: 970px;
+  	height: auto;
+  	overflow: hidden;
+  	background: white;
+}
+
+
+.twitted {
+	width: 16em;
+	margin-bottom: 1.5em;
+	border: 1px solid #888;
+}
+
+.twitted h2 {
+	margin: 0;
+	padding: 0.3em 0.8em;
+	font-size: 1em;
+	color: black;
+	background-color: white;
+}
+
+.twitted p.preLoader {
+	margin: 0;
+	padding: 1em 1em 1em 3em;
+	background: transparent url("loading-tw.gif") 1em center no-repeat;
+	/* generate your own loader gif: http://www.ajaxload.info */
+}
+
+.twitted ul#twitter_update_list {
+	margin: 0;
+	padding: 0 0.8em;
+	list-style-type: none;
+}
+
+.twitted ul#twitter_update_list li {
+	margin: 0;
+	padding: 0.8em 0 1em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.twitted ul#twitter_update_list li span {
+	/* tweet content */
+	display: block;
+}
+
+.twitted ul#twitter_update_list li span a {
+	/* links in tweet content */
+	color: #00f;
+}
+
+.twitted ul#twitter_update_list li a {
+	/* timestamp link */
+	color: #f00;
+}
+
+.twitted ul#twitter_update_list li.firstTweet {
+}
+
+.twitted ul#twitter_update_list li.lastTweet {
+	border-bottom: none;
+}
+
+.twitted p.profileLink {
+	display: block;
+	margin: 0;
+	padding: 0.3em 1em;
+	color: #fff;
+	background-color: #ddd;
+}
+
+/* Widget CSS */
+.inat-widget { font-family: Georgia, serif; padding: 10px; line-height: 1;}
+.inat-widget2 { float: left; font-family: Georgia, serif; padding: 10px; line-height: 1; display: block;}
+.inat-widget3 { float: left; font-family: Georgia, serif; padding: 10px; line-height: 1; display: block;}
+.inat-widget-header {margin-bottom: 10px;}
+.inat-widget td {vertical-align: top; padding-bottom: 10px;}
+.inat-label { color: #888; font-size: 110%; }
+.inat-meta { font-size: smaller; margin-top: 3px; line-height: 1.2;}
+.inat-observation-body, .inat-user-body { padding-left: 10px; }
+.inat-observation-image {text-align: center;}
+.inat-observation-image, .inat-user-image { width: 48px; }
+.inat-observation-image img, .inat-user-image img { max-width: 48px; }
+.inat-label, .inat-value, .inat-user, .inat-message { font-family: "Trebuchet MS", Arial, sans-serif; }
+.inat-user-body {vertical-align: middle;}
+.inat-widget td.inat-user-body {vertical-align: middle;}
+.inat-contributor-pic {display: block; text-align: center;}
+.inat-contributor-widget { width: 100px; }
+.columns { display: inline-block;}

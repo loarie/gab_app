@@ -1,14 +1,41 @@
 <div id="header">
-  <%= link_to image_tag("logo.png", :alt => "Global Amphibian Blitz", :class => "round"), home_path %>
-  <%= link_to "Submit an observation!",
-    "http://www.inaturalist.org/observations/new?project_id=13", :target => "_blank",
-    :class =>    "signup_button round"
-  %>
+  <ul class="logos round">
+      <li>
+        <%= link_to image_tag(
+          "awlogo_50.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+      <li>
+        <%= link_to image_tag(
+          "ASG_50_GS.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+      <li>
+        <%= link_to image_tag(
+          "STF_50_GS.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+      <br />
+      <li>
+        <%= link_to image_tag(
+          "AZA_50_GS.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+      <li>
+        <%= link_to image_tag(
+          "CBD_50_GS.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+      <li>
+        <%= link_to image_tag(
+          "Smithsonian_50_GS.jpg", :alt => "Global Amphibian Blitz"
+        ), 'http://amphibiaweb.org/' %>
+      </li>
+  </ul>
+  <%= link_to image_tag("Blitz_logo.jpg", :alt => "Global Amphibian Blitz", :class => "round"), home_path %>
   <ul class="navigation round">
-     <% if @title == 'About' %>
-        <li><%= link_to "Home", home_path %></li>
-      <% else %>
-        <li><%= link_to "About", about_path %></li>
-      <% end %>
+      <li><%= link_to "Home", home_path %></li><br />
+      <li><%= link_to "About", about_path %></li><br />
+      <li><%= link_to "Rules", rules_path %></li><br />
   </ul>
 </div>

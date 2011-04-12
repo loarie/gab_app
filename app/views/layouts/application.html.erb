@@ -7,8 +7,8 @@
     <% if @title == 'Home' %>
       <%= render 'layouts/maps' %>
     <% end %>
+      <%= render 'layouts/twitter'%>
   </head>
-  <%= render 'layouts/stylesheets' %>
   <% if @title == 'Home' %>
     <body onload="initialize()">
   <% else %>

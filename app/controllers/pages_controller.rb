@@ -2,9 +2,12 @@ class PagesController < ApplicationController
   def home
     @title = "Home"
   end
-
+  
   def about
     @title = "About"
   end
-
+  
+  def rules
+    @title = "Rules"
+  end
 end
