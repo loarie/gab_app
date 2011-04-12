@@ -200,7 +200,7 @@ ul.navigation {
   margin-right: auto;
   display: block;
   float: left;
-  width: 390px;
+  width: 380px;
   height: 330px;
   padding: 10px;
 }
@@ -306,5 +306,5 @@ ul.navigation {
 .inat-user-body {vertical-align: middle;}
 .inat-widget td.inat-user-body {vertical-align: middle;}
 .inat-contributor-pic {display: block; text-align: center;}
-.inat-contributor-widget { width: 100px; }
+.inat-contributor-widget { width: 80px; }
 .columns { display: inline-block;}
