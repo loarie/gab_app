@@ -6,6 +6,15 @@ body {
   background: #336600;
 }
 
+.tagline{
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+	margin: 0;
+	padding: 0.1em 0.8em;
+	color: #336600;
+	font-size: 110%;
+	font-weight:bold;
+}
 .text-box {
   padding: 10px 40px 10px 40px;
   vertical-align: center;
@@ -14,9 +23,12 @@ body {
 .paragraph-box {
   padding: 0px 40px 0px 40px;
   vertical-align: center;
+  font-family: Georgia, serif;
 }
 
-
+.red {
+  color: red;
+}
 #header {
   text-align: center;
   padding-top: 5px;
@@ -28,11 +40,11 @@ body {
 }
 
 #content {
-  margin-top: 1em;
+  margin-top: 0.1em;
   font-size: 120%;
-  padding: 5px;
+  padding: 2px;
   background: #fff;
-  height: 470px;
+  height: 500px;
 }
 
 /* Links */
@@ -69,6 +81,10 @@ ul.logos {
   list-style-type: none;
   display: inline-block;
   padding: 0px;
+}
+
+.logo {
+  height: 43px;
 }
 
 /* Submit-container */
@@ -152,7 +168,7 @@ a.signup_button {
 
 .navigation {
   background-color: white;
-  padding: 5px;
+  padding: 6px;
   white-space: nowrap;
 }
 
@@ -163,7 +179,8 @@ ul.navigation {
 .navigation li {
   list-style-type: none;
   display: inline-block;
-  padding: 0.2em 0;
+  padding: 0.7em 0.5em;
+  font-size: 125%;
 }
 
 .navigation li a {
@@ -183,7 +200,7 @@ ul.navigation {
 
 #footer {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 3px;
   width: 970px;
   margin-left: auto;
   margin-right: auto;
@@ -217,13 +234,17 @@ ul.navigation {
 
 /* Twitter */
 #twitter {
-	font-family:"Lucida Grande", "Lucida Sans Unicode", sans-serif;
-  	font-size: 12px;
-  	color: #333;
+  font-family: Georgia, serif;
+  color: #888;
+  font-size: 110%;
+  margin-top: 0.1em;
   	width: 970px;
   	height: auto;
   	overflow: hidden;
   	background: white;
+  	-moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
 }
 
 
@@ -234,10 +255,12 @@ ul.navigation {
 }
 
 .twitted h2 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
 	margin: 0;
 	padding: 0.3em 0.8em;
-	font-size: 1em;
-	color: black;
+	color: #336600;
+	font-size: 125%;
+	font-weight:bold;
 	background-color: white;
 }
 

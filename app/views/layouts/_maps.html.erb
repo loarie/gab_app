@@ -11,7 +11,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
   var georssLayer = new google.maps.KmlLayer(
-    'http://inaturalist.org/observations/project/13.atom',
+    'http://inaturalist.org/observations/project/13.kml',
     {preserveViewport:true}
   );
   georssLayer.setMap(map);
