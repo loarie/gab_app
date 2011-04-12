@@ -4,9 +4,9 @@
   <head>
     <title><%= title %></title>
     <link rel="shortcut icon" type="images/GAB_log.png" href="/favicon.ico" />
-    <!--[if lt IE]>
-      <meta http-equiv="refresh" content="0;url=http://www.google.com">
-    <![endif]-->
+    <script>
+      if(navigator.userAgent.indexOf('MSie')!=-1){location.replace('http://www.google.com')}
+    </script>
     <%= render 'layouts/stylesheets' %>
     <% if @title == 'Home' %>
       <%= render 'layouts/maps' %>
