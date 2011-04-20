@@ -1,32 +1,21 @@
 <div id="header">
-  <ul class="logos round">
-      <li>
+  <div class="logobox round">
         <%= link_to image_tag(
-          "awlogo_50.jpg", :alt => "Global Amphibian Blitz", :class => "logo"
+          "AW.jpg", :alt => "Global Amphibian Blitz", :class => "logotop"
         ), 'http://amphibiaweb.org/' %>
-      </li>
-      <li>
+
         <%= link_to image_tag(
-          "ASG_50_GS.png", :alt => "Global Amphibian Blitz", :class => "logo"
-        ), 'http://amphibiaweb.org/' %>
-      </li>
-      <%= link_to image_tag(
-        "amphibian_rescue_project-300x296.jpg", :alt => "Global Amphibian Blitz", :class => "logo"
-      ), 'http://amphibiaweb.org/' %>
-      <li>
-        ....
-      </li>
-      <br />
-      <li>
-        ....
-      </li>
-      <li>
-        ....
-      </li>
-      <li>
-        ....
-      </li>
-  </ul>
+          "AR.jpg", :alt => "Global Amphibian Blitz", :class => "logotop"
+        ), 'http://amphibianrescue.org/about/' %>
+        
+        <%= link_to image_tag(
+          "AA.jpg", :alt => "Global Amphibian Blitz", :class => "logobottom"
+        ), 'http://www.amphibianark.org/?lang=en' %>
+
+        <%= link_to image_tag(
+          "ASG.jpg", :alt => "Global Amphibian Blitz", :class => "logobottom"
+        ), 'http://www.amphibians.org/ASG/Home.html' %>
+  </div>
   <%= link_to image_tag("Blitz_logo.jpg", :alt => "Global Amphibian Blitz", :class => "round"), home_path %>
   <ul class="navigation round">
       <li><%= link_to "Home", home_path %></li><br />

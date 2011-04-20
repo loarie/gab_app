@@ -72,19 +72,23 @@ a:visited {
   white-space: nowrap;
 }
 
-
-ul.logos {
-  margin: 0;
+.logobox {
+  float: left;
+  height:97px;
+  width:200px;
+  padding:0px;
+  margin: 0px;
 }
 
-.logos li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0px;
+.logotop {
+  height: 60px;
+  width: 67px;
+  float: left;
 }
-
-.logo {
-  height: 43px;
+.logobottom {
+  height: 37px;
+  width: 67px;
+  float: left;
 }
 
 /* Submit-container */
